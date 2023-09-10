@@ -27,8 +27,6 @@ jobs:
           key: node-modules-${{ hashFiles('**package-lock.json') }}
       - name: install modules 
         run: npm ci
-      - name: build project
-        run: npm run build
       - name: format
         run: npm run format
       - name: lint
