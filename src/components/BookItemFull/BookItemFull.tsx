@@ -21,8 +21,9 @@ const BookItemFull = () => {
 
     if (!card) navigate("/")
 
+    console.log(card)
 
-    let imgLink = card?.volumeInfo?.imageLinks && card?.volumeInfo?.imageLinks?.smallThumbnail
+    let imgLink = card?.volumeInfo?.imageLinks && card?.volumeInfo?.imageLinks?.thumbnail
 
     return (
         <>

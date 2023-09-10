@@ -30,7 +30,10 @@ export type SelectElemCategoryType = {
     key: CategoryKeyType
 }
 
-
+export interface IImageLinks {
+    smallThumbnail: string;
+    thumbnail: string;
+}
 
 export interface IVolumeInfo {
     allowAnonLogging: boolean,
@@ -39,28 +42,28 @@ export interface IVolumeInfo {
     categories: string[];
     contentVersion: string;
     description: string;
-    imageLinks: any;
-    industryIdentifiers: any;
+    imageLinks: IImageLinks;
+    industryIdentifiers: unknown;
     infoLink: string;
     language: string;
     maturityRating: string;
     pageCount: number;
-    panelizationSummary: any;
+    panelizationSummary: unknown;
     previewLink: string;
     printType: string;
     publishedDate: string;
     publisher: string;
-    readingModes: any;
+    readingModes: unknown;
     title: string;
 }
 
 export interface IBook {
-    accessInfo: any;
+    accessInfo: unknown;
     etag: string;
     id: string;
     kind: string;
-    saleInfo: any;
-    searchInfo: any;
+    saleInfo: unknown;
+    searchInfo: unknown;
     selfLink: string;
     volumeInfo: IVolumeInfo
 }

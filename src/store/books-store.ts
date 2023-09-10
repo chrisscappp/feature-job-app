@@ -35,11 +35,11 @@ class BooksStore {
 
     getFilteredBooks = async (queryParams: QueryParamsType, key: CategoryKeyType) => {
         await this.getBooksAction(queryParams)
-        let tmp: any[] = []
+        let tmp: IBook[] = []
     
-        this.books.forEach((book: any) => {
+        this.books.forEach((book: IBook) => {
             if (book.volumeInfo.categories) {
-                book.volumeInfo.categories.forEach((item: any) => {
+                book.volumeInfo.categories.forEach((item: string) => {
                     if (item.toLowerCase() === key) {
                         tmp.push(book)
                     }

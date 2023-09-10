@@ -10,7 +10,7 @@ const BooksItem = ({ cardId, card }: BooksItemProps) => {
 
     const navigate = useNavigate()
 
-    let imgLink = card.imageLinks && card.imageLinks.smallThumbnail
+    let imgLink = card.imageLinks && card.imageLinks.thumbnail
 
     return (
         <>
