@@ -1,5 +1,5 @@
 import { memo } from "react"
-import { IBook } from "../models";
+import { IBook } from "../models"
 import BooksList from "../components/BooksList/BookList"
 import "./style.css"
 

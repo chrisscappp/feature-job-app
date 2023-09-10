@@ -1,4 +1,4 @@
-import { CategoryKeyType, SortKeyType, SelectElemCategoryType, SelectElemSortType } from "../../models";
+import { CategoryKeyType, SortKeyType, SelectElemCategoryType, SelectElemSortType } from "../../models"
 import "./style.css"
 
 interface SelectComponentProps {

@@ -1,5 +1,6 @@
 name: Deployment
 run-name: ${{ github.actor }} deployment 🚀
+eslint: '**/*.tsx' --max-warnings=0
 on:
   push:
     branches: 
