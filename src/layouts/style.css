@@ -1,0 +1,21 @@
+.footer__pagination-wrapper {
+  width: 100%;
+  margin: 30px 0px 90px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__pagination-wrapper__button {
+  width: 230px;
+  height: 38px;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  box-shadow: 0px 3px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.footer__pagination-wrapper__button:hover {
+  background-color: aqua;
+}
