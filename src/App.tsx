@@ -1,7 +1,7 @@
 import { RootStoreContext } from "./hooks/rootStoreContext"
 import RootStore from "./store/root-store"
 import AppLayout from "./layouts/AppLayout"
-import "./app.css"
+import "./index.css"
 
 function App() {
     return (
