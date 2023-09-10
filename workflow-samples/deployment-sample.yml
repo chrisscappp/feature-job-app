@@ -29,8 +29,6 @@ jobs:
         run: npm ci
       - name: build project
         run: npm run build
-      - name: build storyBook
-        run: npm run build:storyBook
   testing:
     strategy:
       matrix:
@@ -56,8 +54,6 @@ jobs:
         run: npm run format
       - name: lint
         run: npm run lint
-      - name: test lint
-        run: npm run test:lint
   build:
     needs: testing
     runs-on: ubuntu-latest
